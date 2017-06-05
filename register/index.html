@@ -1,46 +1,122 @@
 <!doctype html>
-<html>
-  <head>
-	<meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=https://discord.gg/RN4M3HR" />
-	<title>Echelon 1: Gaming League 1 - Registration</title>
-	<meta name="author" content="k3rn31p4nic">
-	<meta name="description" content="Get yourself registered for Echelon 1 Gaming League 1. Join our Discord Community https://discord.gg/RN4M3HR for more details.">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Echelon 1: Gaming League 1 - Registration">
-    <meta property="og:description" content="Get yourself registered for Echelon 1 Gaming League 1. Join our Discord Community https://discord.gg/RN4M3HR for more details.">
-    <meta property="og:url" content="https://echelon-1.github.io/">
-    <meta property="og:image" content="https://echelon-1.github.io/images/E1_K.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="shortcut icon" href="https://echelon-1.github.io/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#202020">
-    <meta name="apple-mobile-web-app-title" content="Echelon 1">
-    <meta name="application-name" content="Echelon 1">
-	<meta name="theme-color" content="#cec2b2">
-	<style>
-		body {
-			font-family: "Courier New", Courier, monospace;
-			font-size: 25px;
-			color: #d1d1d1;
-			background-color: #000000;
-		}
-		a:link {
-			color: #fc9a0a;
-			text-decoration: none;
-		}
-		a:hover {
-			color: #fc9a0a;
-			text-decoration: underline;
-		}
-	</style>
-  </head>
-  <body>
-	<p>If you are not redirected within a few seconds to the signup page, please <a href="https://discord.gg/RN4M3HR">click here</a>.</p>
-  </body>
- </html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+	<title>E1GL2 Registration | Echelon 1</title>
+    <style>
+      #success {
+        display: none;
+        position: absolute;
+        max-width: 800px;
+        z-index: 15;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-size: 2em;
+      }
+  </style>
+</head>
+<body>
+    <div id="success">
+      <p>Thank you for registering in<br>Echelon 1 Gaming League 2<br><br>Play hard!</p>
+    </div>
+	<form id="registrationForm" class="cd-form floating-labels" action="https://formspree.io/echelon1@geekupti.me" method="post">
+		<fieldset>
+			<legend>Step 1</legend>
+
+			<div>
+				<p>Join our Discord Server, if you haven't already. That's where you'll receive the most important announcements.</p>
+				<div>
+					<a href=""><img src="https://discordapp.com/api/guilds/299512452457168908/embed.png?style=banner3" alt="Echelon 1 Discord Server"></a>
+				</div>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Step 2</legend>
+
+			<!-- <div class="error-message">
+				<p>Please enter a valid email address</p>
+			</div> -->
+
+			<div class="icon">
+				<label class="cd-label" for="cd-name">Call of Duty in-game name/alias</label>
+				<input class="user" type="text" name="inGameName" id="cd-name" required>
+	    </div>
+
+			<div class="icon">
+				<label class="cd-label" for="cd-name">Discord user tag</label>
+				<input class="user" type="text" name="discord-tag" id="cd-tag" required>
+	    </div>
+
+	    <div class="icon">
+	    	<label class="cd-label" for="cd-company">Community/Clan Name</label>
+				<input class="company" type="text" name="clan" id="cd-clan">
+	    </div>
+
+	    <!-- <div class="icon">
+	    	<label class="cd-label" for="cd-email">Email</label>
+				<input class="email error" type="email" name="cd-email" id="cd-email" required>
+	    </div> -->
+		</fieldset>
+
+		 <fieldset> 
+			<legend>Notes:</legend>
+
+			<div>
+				<p>If any of your information is in-valid, you'll not get registered.</p>
+				<br>
+				<p>You'll need to be in our Discord Server to get announcements &amp; passwords for the server during the match.</p>
+				<br>
+				<p>If you didn't received any announcement mentioning you, that means you are not registered, please contact either <strong>GH0S7#9196</strong> or <strong>SaffronPants#1803</strong> in our Discord Server.</p>
+			</div>
+
+			<div>
+			   <input type="submit" value="Send Message">
+		  </div>
+           <input id="sub" type="hidden" name="_subject" value="E1GL2 Registration" />
+           <input type="hidden" name="_next" value="https://e1.geekupti.me" />
+           <input id="honeyPot" type="text" name="_gotcha" style="display:none" />
+		 </fieldset> 
+	</form>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script>
+$(document).ready(function(){
+  $('#registrationForm').on('submit', function(e){
+    e.preventDefault();
+    var name = $('#cd-name').val();
+    var discordTag = $('#cd-tag').val();
+    var clan = $('#cd-clan').val();
+    var subject = $('#sub').val();
+    var honeypot = $('#honeyPot').val();
+
+    $.ajax({
+      url:'https://formspree.io/echelon1@geekupti.me',
+      method:'POST',
+      data:{
+        "IGN": name,
+        "Discord-Tag": discordTag,
+        "clan": clan,
+        _subject: subject,
+        _gotcha: honeypot,
+      },
+      dataType:"json",
+      success:function(){
+        $('#registrationForm').slideUp();
+        $('#success').delay(500).fadeIn("slow");
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>
