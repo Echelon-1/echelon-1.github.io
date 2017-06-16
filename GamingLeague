@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Echelon 1: Gaming League 2 - Match Bracker</title>
+	<meta name="author" content="Sankarsan Kampa">
+	<meta name="description" content="Echelon 1: Gaming League 2 - Match Bracket. See the tournament schedule & details LIVE.">
+    <meta name="keywords" content="Echelon, Echelon1, game, servers, community, forum, discord">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Echelon 1: Gaming League 2">
+    <meta property="og:description" content="Echelon 1: Gaming League 2 - Match Bracket. See the tournament schedule & details LIVE.">
+    <meta property="og:url" content="https://echelon-1.github.io/">
+    <meta property="og:image" content="https://echelon-1.github.io/images/E1_K.png">
+  
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+   <!-- favicons
+	================================================== -->
+    <link rel="shortcut icon" href="https://echelon-1.github.io/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#202020">
+    <meta name="apple-mobile-web-app-title" content="Echelon 1">
+    <meta name="application-name" content="Echelon 1">
+    <meta name="theme-color" content="#cec2b2">
+
+    <style>
+      html, body {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden
+      }
+    </style>
+</head>
+<body>
+
+<iframe src="http://challonge.com/e1gl2/module" width="100%" height="100%" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+
+</body>
+</html>
